@@ -57,6 +57,10 @@ const cars = [
     trims: ["life", "style", "r-line"],
   },
 ]
+cars.forEach((car) => {
+  car.licensePlate = ["2FAST4U"]
+})
+console.log(cars)
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
@@ -69,9 +73,7 @@ cars.push({
   trims: ["pop", "lounge"],
 })
 for (i = 0; i < cars.length; i++) {
-  if (cars[i].trims !== 0) {
-    cars[i].trims.splice(1, cars[i].trims.length)
-  }
+  cars[i].trims.pop()
 }
 console.log(cars)
 /* ESERCIZIO 7
@@ -79,8 +81,7 @@ console.log(cars)
 */
 const justTrims = []
 for (i = 0; i < cars.length; i++) {
-  justTrims.push()
-  n1 = cars[i].trims.splice(1, cars[i].trims.length)
+  justTrims.push(cars[i].trims[0])
 }
 console.log(justTrims)
 
