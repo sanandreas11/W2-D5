@@ -36,13 +36,12 @@ main button {
 }
 
 .BigButton {
-  width: 92;
   background-image: url(../images/bg-image.png);
   background-position: center;
   color: white;
   border: none;
   text-align: center;
-  padding: 2em;
+  padding: 1.5em;
   margin: 1em 0;
   cursor: pointer;
 }
