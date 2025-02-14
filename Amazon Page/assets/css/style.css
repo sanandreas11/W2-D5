@@ -1,1 +1,130 @@
 /* Your styles here */
+header {
+  background-color: #222f3f;
+}
+header img {
+  text-align: center;
+  width: 15%;
+}
+nav {
+  background-color: #364759;
+  color: white;
+  padding: 0.5em;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav p {
+  display: inline;
+  padding: 0.5em;
+  cursor: pointer;
+}
+main {
+  width: 93%;
+  margin: auto;
+  background-color: #e9edee;
+}
+main button {
+  width: 93%;
+  background-color: #f56600;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 0.5em;
+  margin: 1.5em 0;
+  cursor: pointer;
+}
+
+.BigButton {
+  width: 92;
+  background-image: url(../images/bg-image.png);
+  background-position: center;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 2em;
+  margin: 1em 0;
+  cursor: pointer;
+}
+.BigButton h1 {
+  font-size: 2em;
+  margin: 0.5em;
+  font-weight: bold;
+}
+.BigButton p {
+  font-weight: bold;
+}
+
+div {
+  background-color: white;
+  margin: 0 0 2em;
+}
+div p {
+  display: block;
+  font-weight: bold;
+}
+div a {
+  text-decoration: none;
+  color: #0f4a59;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding-left: 1.5em;
+}
+div img {
+  display: inline;
+  width: 19%;
+  margin: 0 2.7%;
+  height: 16em;
+  text-align: center;
+  border-radius: 25px;
+}
+article {
+  text-align: center;
+  margin: 0 0 2em;
+}
+article p {
+  display: block;
+  font-weight: bold;
+}
+article a {
+  text-decoration: none;
+  color: #0f4a59;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding-left: 1.5em;
+}
+article img {
+  width: 100%;
+}
+aside {
+  text-align: center;
+  margin: 0 0 2em;
+}
+aside p {
+  display: block;
+  font-weight: bold;
+}
+aside a {
+  text-decoration: none;
+  color: #0f4a59;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding-left: 1.5em;
+}
+aside img {
+  width: 100%;
+}
+
+footer {
+  background-color: #222f3f;
+  padding: 3em 0;
+}
+footer img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+.center {
+  text-align: center;
+  color: white;
+}
