@@ -14,24 +14,29 @@ nav {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 nav p {
   display: inline;
   padding: 0.5em;
   cursor: pointer;
 }
+.dimensions {
+  margin: 0 auto;
+
+  width: 90%;
+}
 main {
-  width: 93%;
   margin: auto;
   background-color: #e9edee;
 }
 main button {
-  width: 93%;
   background-color: #f56600;
   color: white;
   border: none;
   text-align: center;
+  margin: 2em;
   padding: 0.5em;
-  margin: 1.5em 0;
+  width: 90%;
   cursor: pointer;
 }
 
@@ -42,12 +47,12 @@ main button {
   border: none;
   text-align: center;
   padding: 1.5em;
-  margin: 1em 0;
+  margin: 2em;
   cursor: pointer;
 }
 .BigButton h1 {
   font-size: 2em;
-  margin: 0.5em;
+  margin: 0.5em 0 0 20;
   font-weight: bold;
 }
 .BigButton p {
@@ -56,11 +61,14 @@ main button {
 
 div {
   background-color: white;
-  margin: 0 0 2em;
+  margin: 2em;
+  padding: 0 0 2em;
+  width: 90%;
 }
 div p {
   display: block;
   font-weight: bold;
+  padding: 0.5em;
 }
 div a {
   text-decoration: none;
@@ -72,10 +80,11 @@ div a {
 div img {
   display: inline;
   width: 19%;
-  margin: 0 2.7%;
-  height: 16em;
+  margin: 0 2.7% 0 2.7%;
+  padding: 2em 0 0 0;
+  height: 30em;
   text-align: center;
-  border-radius: 25px;
+  border-radius: 30px;
 }
 article {
   text-align: center;
@@ -93,7 +102,9 @@ article a {
   padding-left: 1.5em;
 }
 article img {
-  width: 100%;
+  margin: 2em;
+  padding: 0 0 2em;
+  width: 90%;
 }
 aside {
   text-align: center;
@@ -111,7 +122,9 @@ aside a {
   padding-left: 1.5em;
 }
 aside img {
-  width: 100%;
+  margin: 2em;
+  padding: 0 0 2em;
+  width: 90%;
 }
 
 footer {
@@ -121,7 +134,8 @@ footer {
 footer img {
   display: block;
   margin: 0 auto;
-  width: 20%;
+  padding: 0 0 2em;
+  width: 10%;
 }
 .center {
   text-align: center;

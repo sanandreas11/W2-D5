@@ -81,7 +81,6 @@ const justTrims = []
 for (i = 0; i < cars.length; i++) {
   justTrims.push()
   n1 = cars[i].trims.splice(1, cars[i].trims.length)
-  n1 = justTrims
 }
 console.log(justTrims)
 
